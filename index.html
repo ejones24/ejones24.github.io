@@ -1,7 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elijah Jones</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1593341486847-6446632c4f45?q=80&w=1000&auto=format&fit=crop') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    /* Social Links */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .social-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .social-links a:hover {
+      background: #fff;
+      color: #3e1c2b;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    /* About Me Section */
+    .about {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #3e1c2b;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      background: #2b161f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header img {
+        width: 150px;
+        height: 150px;
+      }
+
+      .social-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <!-- Header -->
+  <header>
+    <h1>Elijah Jones</h1>
+    <img src="profile-photo.jpg" alt="Profile Photo">
+    <div class="social-links">
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="mailto:your-email@example.com">Email</a>
+      <a href="path/to/resume.pdf" target="_blank">Resume</a>
+      <a href="https://jcouncil.nd.edu" target="_blank">Judicial Council</a>
+    </div>
+    <div class="contact-info">
+      +1 (773) 495-9819
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Elijah Jones! Welcome to my personal space on the web. I'm passionate about [your interests], and I love to share my journey through this website. Feel free to get in touch via the links above!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>2025 Elijah Jones. All rights reserved.</p>
+  </footer>
 </body>
 </html>
