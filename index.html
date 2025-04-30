@@ -30,8 +30,14 @@
 
     header h1 {
       font-size: 2.5rem;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       animation: fadeIn 1s ease-in;
+    }
+
+    header .subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #ccc;
     }
 
     header img {
@@ -41,7 +47,7 @@
       object-fit: cover;
       border: 3px solid #fff;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-      margin: 20px auto 20px;
+      margin: 20px auto;
       display: block;
     }
 
@@ -72,7 +78,7 @@
     .contact-info {
       font-size: 1rem;
       color: #ccc;
-      margin-bottom: 20px;
+      margin: 20px 0;
     }
 
     /* About Me Section */
@@ -80,12 +86,19 @@
       padding: 50px 20px;
       max-width: 800px;
       margin: 0 auto;
-      text-align: center;
+      text-align: left;
     }
 
     .about h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
+      color: #3e1c2b;
+      text-align: center;
+    }
+
+    .about h3 {
+      font-size: 1.5rem;
+      margin: 20px 0 10px;
       color: #3e1c2b;
     }
 
@@ -95,20 +108,28 @@
       color: #666;
     }
 
-    /* Formatting */
+    /* Formatting for Lists */
     .about ul {
       list-style-type: disc;
-      margin-left: 20px;
+      margin: 10px 0 20px 30px;
     }
 
     .about ul ul {
       list-style-type: circle;
+      margin: 5px 0 5px 20px;
     }
 
     .about ul ul ul {
       list-style-type: square;
+      margin: 5px 0 5px 20px;
     }
 
+    .about li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #666;
+      margin-bottom: 5px;
+    }
 
     /* Footer */
     footer {
@@ -159,24 +180,24 @@
     </div>
   </header>
 
-<!-- About Me Section -->
-<section class="about">
+  <!-- About Me Section -->
+  <section class="about">
     <h2>About Me</h2>
   
-    <strong>Projects</strong>
+    <h3>Projects</h3>
     <ul>
       <li>Worked in a group to create a gate valve</li>
       <li>Created my own version of Quizlet</li>
       <li>Created and maintained a website since I was a sophomore in high school</li>
     </ul>
   
-    <strong>Work Experience</strong>
+    <h3>Work Experience</h3>
     <ul>
       <li>Summer Camp Counselor (3 years)</li>
       <li>Chess Tournament Floor Steward</li>
     </ul>
   
-    <strong>Activities</strong>
+    <h3>Activities</h3>
     <ul>
       <li>
         Student Government - Judicial Council, Senate, FMB, Class Council
@@ -204,7 +225,6 @@
       <li>Campus Ministry - Iron Sharpens Iron</li>
     </ul>
   </section>
-  
 
   <!-- Footer -->
   <footer>
